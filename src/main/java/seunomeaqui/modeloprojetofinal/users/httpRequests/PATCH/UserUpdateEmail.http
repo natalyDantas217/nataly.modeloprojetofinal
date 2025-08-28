@@ -1,0 +1,7 @@
+### Create user
+PATCH http://localhost:8080/api/v1/users/1/update-email
+Content-Type: application/json
+
+{
+  "email": "adalberto@example.com"
+}

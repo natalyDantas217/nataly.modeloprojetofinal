@@ -1,4 +1,3 @@
 package seunomeaqui.modeloprojetofinal.users.dto;
 
-public record UserResponseDTO() {
-}
+public record UserResponseDTO(Long id, String name, String email) {}

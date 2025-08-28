@@ -1,0 +1,12 @@
+2025-08-28 10:06:50.946852-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (email,name,id) values (?,?,?)"; expected "identifier"; SQL statement:
+insert into user (email,name,id) values (?,?,?) [42001-232]
+2025-08-28 10:07:32.882119-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (email,name,id) values (?,?,?)"; expected "identifier"; SQL statement:
+insert into user (email,name,id) values (?,?,?) [42001-232]
+2025-08-28 10:08:41.751393-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (email,name,id) values (?,?,default)"; expected "identifier"; SQL statement:
+insert into user (email,name,id) values (?,?,default) [42001-232]
+2025-08-28 10:10:13.435011-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found; SQL statement:
+insert into users (email,name,id) values (?,?,default) [42102-232]
