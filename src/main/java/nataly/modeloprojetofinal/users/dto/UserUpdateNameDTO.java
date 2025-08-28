@@ -1,4 +1,4 @@
-package seunomeaqui.modeloprojetofinal.users.dto;
+package nataly.modeloprojetofinal.users.dto;
 
 public record UserUpdateNameDTO(String name) {
 }

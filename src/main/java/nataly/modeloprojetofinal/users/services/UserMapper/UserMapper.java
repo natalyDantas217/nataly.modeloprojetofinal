@@ -1,8 +1,8 @@
-package seunomeaqui.modeloprojetofinal.users.services.UserMapper;
+package nataly.modeloprojetofinal.users.services.UserMapper;
 
-import seunomeaqui.modeloprojetofinal.users.dto.UserCreateDTO;
-import seunomeaqui.modeloprojetofinal.users.dto.UserResponseDTO;
-import seunomeaqui.modeloprojetofinal.users.entities.User;
+import nataly.modeloprojetofinal.users.dto.UserCreateDTO;
+import nataly.modeloprojetofinal.users.dto.UserResponseDTO;
+import nataly.modeloprojetofinal.users.entities.User;
 
 public class UserMapper {
 
